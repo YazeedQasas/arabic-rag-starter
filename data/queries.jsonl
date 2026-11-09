@@ -23,3 +23,43 @@
 {"query": "هل يجوز القبض على أي شخص", "relevant_ids": ["d15"], "kind": "natural"}
 {"query": "من هو الذي يتولى التحقيق في الجرائم", "relevant_ids": ["d16"], "kind": "natural"}
 {"query": "كم يوما يجوز فيه استئناف الحكم", "relevant_ids": ["d02"], "kind": "natural"}
+{"query": "ما هي مدة التقادم في الدعوى الجزائية في الجنايات", "relevant_ids": ["d08"], "kind": "natural"}
+{"query": "الوديعة", "relevant_ids": ["d78"], "kind": "exact_rare"}
+{"query": "الهبة", "relevant_ids": ["d79"], "kind": "exact_rare"}
+{"query": "الكتاب", "relevant_ids": ["d35"], "kind": "confusable"}
+{"query": "المحاكمة", "relevant_ids": ["d37"], "kind": "confusable"}
+{"query": "الحجز", "relevant_ids": ["d39"], "kind": "confusable"}
+{"query": "المدين", "relevant_ids": ["d41"], "kind": "confusable"}
+{"query": "العقار", "relevant_ids": ["d43"], "kind": "confusable"}
+{"query": "القاصر", "relevant_ids": ["d45"], "kind": "confusable"}
+{"query": "الشريك", "relevant_ids": ["d47"], "kind": "confusable"}
+{"query": "التركة", "relevant_ids": ["d49"], "kind": "confusable"}
+{"query": "الغرامة", "relevant_ids": ["d51"], "kind": "confusable"}
+{"query": "الاستئناف", "relevant_ids": ["d53"], "kind": "confusable"}
+{"query": "الوكلاء المتضامنين", "relevant_ids": ["d55"], "kind": "morphology"}
+{"query": "التزامات الناقلين", "relevant_ids": ["d56"], "kind": "morphology"}
+{"query": "حماية المستهلك", "relevant_ids": ["d57"], "kind": "morphology"}
+{"query": "المحضرون", "relevant_ids": ["d58"], "kind": "morphology"}
+{"query": "التعويظ", "relevant_ids": ["d06"], "kind": "typo"}
+{"query": "الموضف", "relevant_ids": ["d17"], "kind": "typo"}
+{"query": "التحكين", "relevant_ids": ["d11"], "kind": "typo"}
+{"query": "الجنايت", "relevant_ids": ["d08"], "kind": "typo"}
+{"query": "المتهم بريء حتى تثبت ادانته", "relevant_ids": ["d59"], "kind": "diacritics"}
+{"query": "العدل اساس الملك", "relevant_ids": ["d60"], "kind": "diacritics+alef"}
+{"query": "تنتهي الوكالة الاجل", "relevant_ids": ["d61"], "kind": "diacritics"}
+{"query": "الضرر يزال", "relevant_ids": ["d62"], "kind": "diacritics"}
+{"query": "اخل احد", "relevant_ids": ["d63"], "kind": "alef"}
+{"query": "الامين", "relevant_ids": ["d64"], "kind": "alef"}
+{"query": "اعلنت الادارة", "relevant_ids": ["d65"], "kind": "alef"}
+{"query": "الجريمه تامه", "relevant_ids": ["d66"], "kind": "ta_marbuta"}
+{"query": "الشفعه", "relevant_ids": ["d67"], "kind": "ta_marbuta"}
+{"query": "الشكوي", "relevant_ids": ["d68"], "kind": "ya"}
+{"query": "الفتوي الشرعيه", "relevant_ids": ["d69"], "kind": "ya+ta_marbuta"}
+{"query": "جدوي", "relevant_ids": ["d70"], "kind": "ya"}
+{"query": "الاولي", "relevant_ids": ["d71"], "kind": "ya"}
+{"query": "الملكية الفكرية", "relevant_ids": ["d72"], "kind": "tatweel"}
+{"query": "يحظر التمييز بين المواطنين", "relevant_ids": ["d73"], "kind": "tatweel"}
+{"query": "الحرية الشخصية", "relevant_ids": ["d74"], "kind": "tatweel"}
+{"query": "حماية حقوق الطفل", "relevant_ids": ["d75"], "kind": "tatweel"}
+{"query": "المادة 45", "relevant_ids": ["d76"], "kind": "digits"}
+{"query": "القانون رقم 7 لسنة 2020", "relevant_ids": ["d77"], "kind": "digits"}

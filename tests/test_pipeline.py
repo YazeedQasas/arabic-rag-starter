@@ -26,19 +26,30 @@ def test_data_files_exist():
 def test_corpus_is_well_formed(docs):
     ids = [d.id for d in docs]
     assert len(ids) == len(set(ids)), "duplicate document ids"
-    assert len(docs) >= 30
+    assert len(docs) >= 100
     assert all(d.text.strip() for d in docs)
 
 
 def test_queries_point_at_real_documents(docs):
     ids = {d.id for d in docs}
     queries = load_queries()
-    assert len(queries) >= 20
+    assert len(queries) >= 60
     for q in queries:
         assert q.text.strip()
         assert q.relevant_ids, f"query has no relevant ids: {q.text}"
         assert q.relevant_ids <= ids, f"unknown relevant id in: {q.text}"
         assert q.kind
+
+
+def test_every_query_kind_has_enough_examples():
+    # "diacritics+alef" counts towards "diacritics": the part before the "+".
+    counts = {}
+    for q in load_queries():
+        kind = q.kind.split("+")[0]
+        counts[kind] = counts.get(kind, 0) + 1
+    assert {"exact", "exact_rare", "natural", "diacritics", "alef", "ta_marbuta",
+            "ya", "tatweel", "digits", "morphology", "typo", "confusable"} <= set(counts)
+    assert all(n >= 4 for n in counts.values()), counts
 
 
 # --- the pipeline ------------------------------------------------------------
