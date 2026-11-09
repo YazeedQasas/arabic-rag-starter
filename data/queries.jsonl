@@ -1,0 +1,25 @@
+{"query": "الاستعانة بمحام في التحقيق والمحاكمة", "relevant_ids": ["d07"], "kind": "exact"}
+{"query": "الحكم الصادر من المحكمة الابتدائية", "relevant_ids": ["d02"], "kind": "exact"}
+{"query": "ضمان العيوب الخفية", "relevant_ids": ["d12"], "kind": "exact"}
+{"query": "التحكيم المنازعات التجارية", "relevant_ids": ["d11"], "kind": "exact"}
+{"query": "الطاقة الشمسية أيام الشمس", "relevant_ids": ["d28"], "kind": "exact"}
+{"query": "الشهادة زورا", "relevant_ids": ["d03"], "kind": "diacritics"}
+{"query": "الرضا خاليا الاكراه والغلط والتدليس", "relevant_ids": ["d05"], "kind": "diacritics+alef"}
+{"query": "ابداء الراي", "relevant_ids": ["d18"], "kind": "alef"}
+{"query": "الاحوال الشخصيه", "relevant_ids": ["d09"], "kind": "alef+ta_marbuta"}
+{"query": "الاراضي والمساحه", "relevant_ids": ["d14"], "kind": "alef+ta_marbuta"}
+{"query": "الدعوى الجزائيه", "relevant_ids": ["d08"], "kind": "ta_marbuta"}
+{"query": "الزراعه العضويه", "relevant_ids": ["d23"], "kind": "ta_marbuta"}
+{"query": "الدعاوي المدنيه والتجاريه", "relevant_ids": ["d01"], "kind": "ya+ta_marbuta"}
+{"query": "النيابة العامة", "relevant_ids": ["d16"], "kind": "tatweel"}
+{"query": "2023", "relevant_ids": ["d29"], "kind": "digits"}
+{"query": "رقم 12 لسنة 2022", "relevant_ids": ["d30"], "kind": "digits"}
+{"query": "نفقات الاولاد", "relevant_ids": ["d09"], "kind": "morphology"}
+{"query": "المتهمون والمحامون", "relevant_ids": ["d07"], "kind": "morphology"}
+{"query": "تزوير المحررات الرسمية", "relevant_ids": ["d13"], "kind": "morphology"}
+{"query": "ندب خبيير للفصل", "relevant_ids": ["d18"], "kind": "typo"}
+{"query": "الكفالة", "relevant_ids": ["d31"], "kind": "exact_rare"}
+{"query": "التقاضي", "relevant_ids": ["d33"], "kind": "exact_rare"}
+{"query": "هل يجوز القبض على أي شخص", "relevant_ids": ["d15"], "kind": "natural"}
+{"query": "من هو الذي يتولى التحقيق في الجرائم", "relevant_ids": ["d16"], "kind": "natural"}
+{"query": "كم يوما يجوز فيه استئناف الحكم", "relevant_ids": ["d02"], "kind": "natural"}
