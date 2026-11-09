@@ -78,7 +78,7 @@ def test_one_ablation_config_per_normalization_rule():
     assert all(not cfg.use_ngram for cfg in ablation_configs("BM25", use_ngram=False).values())
 
 
-# --- the Phase 4 checkpoint, kept as regression checks on the bundled data ---
+# --- the headline claims, kept as regression checks on the bundled data ---
 
 
 def test_normalization_gives_a_clear_gain_over_the_raw_baseline(mrr):
