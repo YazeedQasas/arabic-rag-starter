@@ -8,7 +8,10 @@ version = "0.1.0"
 description = "Hybrid retrieval for Arabic text: normalization, BM25, character n-grams and reciprocal-rank fusion."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["rank-bm25>=0.2.2"]  # BM25 via rank_bm25; everything else is stdlib
+dependencies = [
+    "rank-bm25>=0.2.2",    # BM25 ranker
+    "scikit-learn>=1.4",   # char n-gram TF-IDF + cosine similarity
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
