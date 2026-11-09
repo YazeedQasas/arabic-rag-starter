@@ -5,8 +5,9 @@ benchmark: the passages and queries were written to expose specific failure mode
 so the numbers below show *which kinds* of failure each ranker has, not how often
 they happen on real text.
 
-The passages and queries were drafted by an AI model (Claude) and should be reviewed
-by a native Arabic reader for natural phrasing.
+The passages and queries were drafted by an AI model (Claude) and reviewed by the
+repo owner for natural phrasing. An independent native-speaker review would still
+be worthwhile before relying on them for anything beyond learning.
 
 ## Files
 
